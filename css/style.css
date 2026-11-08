@@ -39,6 +39,7 @@
 
 html, body{
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -1279,6 +1280,14 @@ iframe{
     
     .projects-nav a{
         font-size: 8px;
+    }
+    
+    #project-cursor-tag,
+    #project-cursor-tag.visible {
+        display: none !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+        visibility: hidden !important;
     }
 
 
