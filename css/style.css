@@ -1386,7 +1386,7 @@ iframe{
     }
     
     .pdf-frame {
-        height: 60vh; 
+        display: none;
     }
 }
 
