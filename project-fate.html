@@ -31,7 +31,7 @@
 
          <div class="case-gallery-group full-box">
             <div class="carousel-wrapper">
-                    <div class="carousel-slide">
+                    <div class="carousel-slide graphic-popup-trigger">
                         <img src="images/project-fate/cover.png">
                     </div>
             </div>
@@ -62,25 +62,25 @@
         <!-- Long Image -->
         
         <div class="case-media-box full-box">
-            <div class="media-container">
+            <div class="media-container graphic-popup-trigger">
                 <img src="images/project-fate/gameplay5.png">
             </div>
         </div>
         
         <div class="case-media-box full-box">
-            <div class="media-container">
+            <div class="media-container graphic-popup-trigger">
                 <img src="images/project-fate/gameplay1.png">
             </div>
         </div>
         
         <div class="case-media-box full-box">
-            <div class="media-container">
+            <div class="media-container graphic-popup-trigger">
                 <img src="images/project-fate/gameplay2.png">
             </div>
         </div>
         
         <div class="case-media-box full-box">
-            <div class="media-container">
+            <div class="media-container graphic-popup-trigger">
                 <img src="images/project-fate/gameplay4.png">
             </div>
         </div>
@@ -119,20 +119,24 @@
 
                 <!-- CAROUSEL IMAGES-->
                 <div class="carousel-track">
-                    <div class="carousel-slide">
+                    
+                    <div class="carousel-slide graphic-popup-trigger">
                         <img src="images/project-fate/draft4.png" class="case-image">
                     </div>
-                    <div class="carousel-slide">
+                    <div class="carousel-slide graphic-popup-trigger">
                         <img src="images/project-fate/draft2.png" class="case-image">
                     </div>
-                    <div class="carousel-slide">
+                    <div class="carousel-slide graphic-popup-trigger">
                         <img src="images/project-fate/draft5.png" class="case-image">
                     </div>
-                    <div class="carousel-slide">
+                    <div class="carousel-slide graphic-popup-trigger">
                         <img src="images/project-fate/draft6.png" class="case-image">
                     </div>
-                    <div class="carousel-slide">
+                    <div class="carousel-slide graphic-popup-trigger">
                         <img src="images/project-fate/draft7.png" class="case-image">
+                    </div>
+                    <div class="carousel-slide graphic-popup-trigger">
+                        <img src="images/project-fate/draft8.png" class="case-image">
                     </div>
                 </div>
             </div>
@@ -158,6 +162,18 @@
             <h6>@2026 Priscila Yangi</h6>
         </div>
     </footer>
+    
+    <div id="graphic-popup" class="graphic-popup-overlay">
+        <button class="graphic-popup-close" aria-label="Close viewer">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+            </svg>
+        </button>
+        <div class="graphic-popup-content">
+            <img id="popup-target-img" src="" alt="Popup active image asset presentation" style="display: none;">
+            <video id="popup-target-video" autoplay loop muted playsinline style="display: none;"></video>
+        </div>
+    </div>
 
     <!------------------------------------------------------------------------------------- 
     SCRIPTS
