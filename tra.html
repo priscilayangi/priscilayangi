@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>TRA - Priscila Yangi</title>
+    <title>Tra - Priscila Yangi</title>
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 </head>
 <body>
-
+    
+    <a id="goBackBtn" title="Back To Home" href="index.html">Back To Home</a>
+    
     <div class="main-nav">
         <header><h3>Priscila Yangi</h3></header>
         <nav>
@@ -23,10 +25,10 @@
 
         <!-- Header -->
         <div class="case-title-section">
-            <h1 class="case-title">TRÄ </h1>
+            <h1 class="case-title">TRÄ</h1>
             <h4 class="case-subtitle">Documentary Film (2026)</h4>
         </div>
-
+        
         <div class="case-media-box">
             <div class="video-container">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/wz3DQNOa5yU?si=a2yxX6DWJ3z8LiV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -38,8 +40,7 @@
                 More than a Sound, "What is Indie-Rock"
             </h5>
         </div>
-
-        <!-- Description -->
+<!-- Description -->
         <div class="case-text-section">
             <h4 class="case-paragraph">
                 This documentary follows the journey of a four-man community band who use their music to promote inclusiveness and bring people together. The documentary features personal stories through honest band interviews and behind-the-scenes footage. The film, which incorporates archival video of their musical background, follows the band's identity from the start, showcasing their origins, problems they endured, their first shows, and future objectives.
@@ -54,7 +55,7 @@
         
         <!-- Paragraph -->
         <div class="case-text-section">
-            <h4 class="case-paragraph">My role consisted of being the main DOP, as well as focusing on the sound (during post) and assisting with post-production editing: colour grading &amp; final edit<br>effects/finalisations.</h4>
+            <h4 class="case-paragraph">My role consisted of being the main DOP, as well as focusing on the sound (during post) and assisting with post-production editing: colour grading &amp; final edit effects/finalisations.</h4>
         </div>
 
         <!-- Tools -->
@@ -63,15 +64,14 @@
             <div class="meta-item-right"><h4>Premiere Pro, Audition</h4></div>
         </div>
 
-
-
-                <!-- For any Footnotes -->
+        <!-- For any Footnotes -->
         <div class="case-notice-section">
             <h5 class="case-notice-text">
-                Behind the scenes
+                Behind the scenes 
             </h5>
         </div>
-        
+
+        <!-- CAROUSEL 2 -->
         <div class="case-gallery-group full-box">
             <div class="carousel-wrapper">
                 
@@ -86,21 +86,31 @@
                 <!-- CAROUSEL IMAGES-->
                 <div class="carousel-track">
                     <div class="carousel-slide graphic-popup-trigger">
-                        <img src="images/tra/bts1.jpeg">
+                        <img src="images/tra/bts1.jpeg" class="case-image">
                     </div>
                     <div class="carousel-slide graphic-popup-trigger">
-                        <img src="images/tra/bt2.jpeg">
+                        <div class="carousel-slide graphic-popup-trigger">
+                        <img src="images/tra/bt2.jpeg" class="case-image">
+                    </div>
                     </div>
                     <div class="carousel-slide graphic-popup-trigger">
-                        <img src="images/tra/bt3.jpeg">
+                        <div class="carousel-slide graphic-popup-trigger">
+                        <img src="images/tra/bt3.jpeg" class="case-image">
+                    </div>
                     </div>
                     <div class="carousel-slide graphic-popup-trigger">
-                        <img src="images/tra/bts4.jpeg">
+                        <div class="carousel-slide graphic-popup-trigger">
+                        <img src="images/tra/bts4.jpeg" class="case-image">
+                    </div>
                     </div>
                 </div>
             </div>
         </div>
 
+        <!-- LINKS -->
+        <div class="case-cta-section">
+            <a href="https://claustra.netlify.app/" class="case-cta-link">Link to Website</a>
+        </div>
 
     </main>
 
@@ -118,6 +128,19 @@
         </div>
     </footer>
 
+    
+    <div id="graphic-popup" class="graphic-popup-overlay">
+            <button class="graphic-popup-close" aria-label="Close viewer">
+                <svg viewBox="0 0 24 24" xmlns="http://w3.org">
+                    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                </svg>
+            </button>
+            <div class="graphic-popup-content">
+                <img id="popup-target-img" src="" alt="Popup active image asset presentation" style="display: none;">
+                <video id="popup-target-video" autoplay loop muted playsinline style="display: none;"></video>
+            </div>
+        </div>
+    
     <!------------------------------------------------------------------------------------- 
     SCRIPTS
     -------------------------------------------------------------------------------------->
