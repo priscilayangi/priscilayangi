@@ -206,22 +206,16 @@ section {
  * HOME
  * ================================================================================*/
 
-#home{
+#home {
     background-color: var(--tertiary-colour);
+    background-image: url('../assets/hero.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.hero-background{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: -10vh;
-    width: 1864px;
-    height: 940px; 
-    max-width: none;
-    z-index: 0;
-    pointer-events: none;
-    padding: 5vw 0;
+.hero-background {
+    display: none;
 }
 
 .prof-tag, .sticker-tag, .hero-btn-container{
